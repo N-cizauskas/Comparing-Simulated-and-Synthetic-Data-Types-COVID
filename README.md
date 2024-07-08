@@ -13,7 +13,9 @@ https://www.synthpop.org.uk/about-synthpop.html#methodology
 
 The simulated and synthetic data are compared between data types and sample sizes by measuring the treatment effect using the chi-squared analysis.  The standard mean difference was also calulcated and graphed.
 
-
+All_Sim_Synth_Script.R contains the pipeline for synthetic data generated using the CART method.
+All_Sim_Synth_Script_Rand.R contains the pipeline for synthetic data generated using the random sampling method.
+All_Sim_Synth_Script_LL.R contains the pipeline for synthetic data generated using the linear/logisitc regression method.
 
 
 ## Installation
