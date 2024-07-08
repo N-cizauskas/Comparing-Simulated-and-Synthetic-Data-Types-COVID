@@ -1154,7 +1154,7 @@ graph_data <- data.frame(
 
 
 # plot
-jpeg("C:/Users/c3058452/OneDrive - Newcastle University/Work in Progress/Figures/Scen1_plot_ll.jpg", width = 600, height = 400)
+jpeg("link address here", width = 600, height = 400)
 
 ggplot(graph_data, aes(y = label, x = SMD, shape=type)) +
   geom_point(size = 3, position = position_dodgev(height = 0.5)) +
@@ -1229,7 +1229,7 @@ graph_data_sap <- data.frame(
 
 
 # basic
-jpeg("C:/Users/c3058452/OneDrive - Newcastle University/Work in Progress/Figures/Scen1_box_ll.jpg", width = 600, height = 400)
+jpeg("link address here", width = 600, height = 400)
 
 graph_data_sap %>%
   ggplot( aes(x=label, y=SMD, fill=type)) +
@@ -1250,7 +1250,7 @@ dev.off()
 
 
 # basic grayscale
-jpeg("C:/Users/c3058452/OneDrive - Newcastle University/Work in Progress/Figures/Scen1_box_gray_ll.jpg", width = 600, height = 400)
+jpeg("link address here", width = 600, height = 400)
 
 graph_data_sap %>%
   ggplot(aes(x=label, y=SMD, fill=type)) +
@@ -1323,7 +1323,7 @@ graph_data <- data.frame(
 
 
 # plot
-jpeg("C:/Users/c3058452/OneDrive - Newcastle University/Work in Progress/Figures/Scen2_plot_ll.jpg", width = 600, height = 400)
+jpeg("link address here", width = 600, height = 400)
 
 ggplot(graph_data, aes(y = label, x = SMD, shape=type)) +
   geom_point(size = 3, position = position_dodgev(height = 0.5)) +
@@ -1398,7 +1398,7 @@ graph_data_sap <- data.frame(
 
 
 # basic
-jpeg("C:/Users/c3058452/OneDrive - Newcastle University/Work in Progress/Figures/Scen2_box_ll.jpg", width = 600, height = 400)
+jpeg("link address here", width = 600, height = 400)
 
 graph_data_sap %>%
   ggplot( aes(x=label, y=SMD, fill=type)) +
@@ -1419,7 +1419,7 @@ dev.off()
 
 
 # basic grayscale
-jpeg("C:/Users/c3058452/OneDrive - Newcastle University/Work in Progress/Figures/Scen2_box_gray_ll.jpg", width = 600, height = 400)
+jpeg("link address here", width = 600, height = 400)
 
 graph_data_sap %>%
   ggplot(aes(x=label, y=SMD, fill=type)) +
@@ -1492,7 +1492,7 @@ graph_data <- data.frame(
 
 
 # plot
-jpeg("C:/Users/c3058452/OneDrive - Newcastle University/Work in Progress/Figures/Scen3_plot_ll.jpg", width = 600, height = 400)
+jpeg("link address here", width = 600, height = 400)
 
 ggplot(graph_data, aes(y = label, x = SMD, shape=type)) +
   geom_point(size = 3, position = position_dodgev(height = 0.5)) +
@@ -1567,7 +1567,7 @@ graph_data_sap <- data.frame(
 
 
 # basic
-jpeg("C:/Users/c3058452/OneDrive - Newcastle University/Work in Progress/Figures/Scen3_box_ll.jpg", width = 600, height = 400)
+jpeg("link address here", width = 600, height = 400)
 
 graph_data_sap %>%
   ggplot( aes(x=label, y=SMD, fill=type)) +
@@ -1588,7 +1588,7 @@ dev.off()
 
 
 # basic grayscale
-jpeg("C:/Users/c3058452/OneDrive - Newcastle University/Work in Progress/Figures/Scen3_box_gray_ll.jpg", width = 600, height = 400)
+jpeg("link address here", width = 600, height = 400)
 
 graph_data_sap %>%
   ggplot(aes(x=label, y=SMD, fill=type)) +
@@ -1665,7 +1665,7 @@ graph_data <- data.frame(
 
 
 # plot
-jpeg("C:/Users/c3058452/OneDrive - Newcastle University/Work in Progress/Figures/Scen4_plot_ll.jpg", width = 600, height = 400)
+jpeg("link address here", width = 600, height = 400)
 
 ggplot(graph_data, aes(y = label, x = SMD, shape=type)) +
   geom_point(size = 3, position = position_dodgev(height = 0.5)) +
@@ -1740,7 +1740,7 @@ graph_data_sap <- data.frame(
 
 
 # basic
-jpeg("C:/Users/c3058452/OneDrive - Newcastle University/Work in Progress/Figures/Scen4_box_ll.jpg", width = 600, height = 400)
+jpeg("link address here", width = 600, height = 400)
 
 graph_data_sap %>%
   ggplot( aes(x=label, y=SMD, fill=type)) +
@@ -1762,7 +1762,7 @@ dev.off()
 
 
 # basic grayscale
-jpeg("C:/Users/c3058452/OneDrive - Newcastle University/Work in Progress/Figures/Scen4_box_gray_ll.jpg", width = 600, height = 400)
+jpeg("link address here", width = 600, height = 400)
 
 graph_data_sap %>%
   ggplot(aes(x=label, y=SMD, fill=type)) +
