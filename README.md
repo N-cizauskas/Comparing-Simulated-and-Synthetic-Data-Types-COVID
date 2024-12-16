@@ -1,4 +1,4 @@
-# Comparing-Simulated-and-Synthetic-Data-Types
+# Comparing-Simulated-and-Synthetic-Data-Types-COVID
 
 
 ## Description
