@@ -11,12 +11,9 @@ Simulated clinical trial data was generated for three different types for trials
 Synthetic data was generated using the R library Synthpop. Synthetic data is created by subsetting the original data to include only variables of interest, and then creating a cookbook of values.  Three methods of synthetic data generation were used, each corresponding to its own R script: CART (Categorical and Regression Tree modelling), random sampling, and linear/logistic regression. More information on how Synthpop generates synthetic data can be found here:
 https://www.synthpop.org.uk/about-synthpop.html#methodology
 
-The simulated and synthetic data are compared between data types and sample sizes by measuring the treatment effect using the chi-squared analysis.  The standard mean difference was also calulcated and graphed.
+The simulated and synthetic data are compared between data types and sample sizes by measuring the change in response rate.  The standard mean difference was also calulcated and graphed.
 
-All_Sim_Synth_Script.R contains the pipeline for synthetic data generated using the CART method.
-All_Sim_Synth_Script_Rand.R contains the pipeline for synthetic data generated using the random sampling method.
-All_Sim_Synth_Script_LL.R contains the pipeline for synthetic data generated using the linear/logisitc regression method.
-
+Three methods are used for data synthesis and compared as a secondary analysis: CART, linear/logistic regression, and random sampling.
 
 ## Installation
 
@@ -51,8 +48,8 @@ The R Libraries used include the following:
 - viridis
 - rgp
 - rsimsum
-
-
+- gridExtra
+- parallel
 
 ## Usage
 
@@ -81,4 +78,5 @@ This code is for comparing the quality of synthetic controls between different d
 - Cases in England | Coronavirus in the UK (2023). Available at: https://coronavirus.data.gov.uk/details/cases?areaType=nation&areaName=England (Accessed: 28 February 2024).
 - Demographic data for coronavirus (COVID-19) testing (England): 28 May to 26 August (no date) GOV.UK. Available at: https://www.gov.uk/government/publications/demographic-data-for-coronavirus-testing-england-28-may-to-26-august/demographic-data-for-coronavirus-covid-19-testing-england-28-may-to-26-august (Accessed: 8 March 2024).
 - Statistics » COVID-19 vaccinations archive (no date). Available at: https://www.england.nhs.uk/statistics/statistical-work-areas/covid-19-vaccinations/covid-19-vaccinations-archive/ (Accessed: 28 February 2024).
+
 
